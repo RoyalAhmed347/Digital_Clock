@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Ahmed;
+  src: url('./font/digital-7.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.main{
+  background: rgb(31, 3, 58);
+  font-family: Ahmed;
+  height: 100vh;
+  width: 100%;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(10, 121, 80, 0.568);
+  padding: 30px;
+  color: yellow;
+  font-size: 120px;
+  font-weight: 400;
+}
